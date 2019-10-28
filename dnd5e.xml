@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="5" name="dnd5e">
+    <Basepaths>/dnd5e</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1572023579534</CreatedAt>
+    <CreatedBy>thegarty@ms3-inc.com</CreatedBy>
+    <Description>Proxy API for 5e API information</Description>
+    <DisplayName>dnd5e</DisplayName>
+    <LastModifiedAt>1572281988344</LastModifiedAt>
+    <LastModifiedBy>thegarty@ms3-inc.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:fbc8cf2f57e317f32a0a99cbfa19a484ce9ec69dedf8ec6af777335ad00fd2aeecc7c04b9769e5ad5508cd120ffb23d90c032e92bc95c0d9e20130c2335da55c</ManifestVersion>
+    <Policies>
+        <Policy>cache-response</Policy>
+        <Policy>convert-full-class</Policy>
+        <Policy>post-quota-logging</Policy>
+        <Policy>tier-quota-enforcement</Policy>
+        <Policy>verify-tier-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://convert-full-class-json.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

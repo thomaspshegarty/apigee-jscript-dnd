@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessageLogging async="false" continueOnError="false" enabled="true" name="post-quota-logging">
+    <DisplayName>post-quota-logging</DisplayName>
+    <Syslog>
+        <Message>[4bcd5794-2aad-47d7-b521-6aba2fbc69b0@41058] [
+        tag={organization.name}.{apiproxy.name}.{environment.name},
+        app={verifyapikey.verify-tier-key.developer.app.name},
+        quota-remaining={ratelimit.tier-quota-enforcement.available.count}, 
+        proxy-path={request.path}, 
+        type=quota-message
+        ]</Message>
+        <Host>logs-01.loggly.com</Host>
+        <Port>514</Port>
+    </Syslog>
+</MessageLogging>

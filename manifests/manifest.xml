@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="cache-response" version="SHA-512:6ff4e9da9bdcbffb571fd927682bcf5a33057bdae22efe44c194a157d883ac7a817d69afca84ed1fe5430f2722b36aaf0b8ea36bf6667a02d25b7e0cfa72baf9"/>
+        <VersionInfo resourceName="convert-full-class" version="SHA-512:9af374f2a66d601716ea8c9dff9d61353af2fb7931f4eadb97dd0ea3ec0012e3c53841283397e8f3c4b66d2d7ede9884460e4d40cbaf2411d807546aa6e8eec6"/>
+        <VersionInfo resourceName="post-quota-logging" version="SHA-512:b0229eebc586ad32f02325d91a25353990053fda6e08c757119a71dbb880b9acb2fc0623bc8fb44dcf99918d2855bb3a4faceec80f20474d0962d9084231c638"/>
+        <VersionInfo resourceName="tier-quota-enforcement" version="SHA-512:cb32ecc1aa988c31a4ba6052e353a4709c9a34c08ca7a7da4e1b10065d8ef8da7b044cb7874a59d1dda727614b3d26bb17c9e231575f9b2d1fd705bfb457097a"/>
+        <VersionInfo resourceName="verify-tier-key" version="SHA-512:e9bd40d124396beb3f9f007d1cc13c69c6e7fe1e664d091b7d5e11140e553c7ba20f173e1f4960a2845e7bc2f5c1e2e08392aee3da470eacf1c93c9b655f1336"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:65decc7e1869fc1393e86ea5df47b3c9c20a1c45dcf88b5259c7f5d445a339bbef8df4e0d3731a4844a51beff117dadf66e7b5db37e7674a092980f2661328fd"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://convert-full-class-json.js" version="SHA-512:204512592b55e7995e3f83448ec5e57b4a764dfab86e4d60a2d31d6ae05c29566d84cce8ac76435d2e5c81afbde737a8ffec0a0aeeb2c4600258105d3a2f526d"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:5e683b5b2f887045a69395bb8d20f9f6e5b4325fefa9aed5de466f16c18ecda9e17e69de1bbd67854dccc8fa6658ad3d5b127dccdca4f5bff79d9654a2596c5f"/>
+    </TargetEndpoints>
+</Manifest>

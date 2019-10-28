@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="default">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>verify-tier-key</Name>
+            </Step>
+            <Step>
+                <Name>tier-quota-enforcement</Name>
+            </Step>
+            <Step>
+                <Name>cache-response</Name>
+            </Step>
+            <Step>
+                <Name>post-quota-logging</Name>
+            </Step>
+        </Request>
+        <Response>
+            <Step>
+                <Name>cache-response</Name>
+            </Step>
+        </Response>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <Flows>
+        <Flow name="all-classes-flow">
+            <Description/>
+            <Request/>
+            <Response>
+                <Step>
+                    <Name>convert-full-class</Name>
+                </Step>
+            </Response>
+            <Condition>request.path equals "/api/classes"</Condition>
+        </Flow>
+    </Flows>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>http://www.dnd5eapi.co/api</URL>
+    </HTTPTargetConnection>
+</TargetEndpoint>
